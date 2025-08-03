@@ -32,7 +32,7 @@ footer {
 
 #mainContent {
     box-sizing: border-box;
-    padding: 2vh 10vw;
+    padding: 2vh 16vw;
     min-height: var(--body-height);
     width: 100%;
 

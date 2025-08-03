@@ -8,7 +8,7 @@
 
     public enum WidgetSubtype {
         Apple,
-        Ardvark,
+        Aardvark,
         Astronaut,
         Bear,
         Bobcat,
@@ -32,6 +32,3 @@
         public WidgetSubtype Subtype { get; set; }
     }
 }
-
-// HomeController.cs: display all current widgets
-// "widgets/add": WidgetsController.cs Add()

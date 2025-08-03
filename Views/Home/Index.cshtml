@@ -4,12 +4,11 @@
     ViewData["Title"] = "Home Page";
 }
 
-@* TODO: Widgets catalogue display page *@
+<div class="widgetContainer">
 
-<div id="widgetContainer">
     <div id="widgetContainerHeader">
         <h2 class="boldFont">Widgets</h2>
-        <a><i class="fa-solid fa-plus"></i>Add Widget</a>
+        <a asp-controller="Home" asp-action="Add"><i class="fa-solid fa-plus"></i>Add Widget</a>
     </div>
 
     @if (Model != null && Model.Count > 0)
@@ -17,7 +16,16 @@
         @foreach (var widget in Model) {
             <div id="widgetItem">
                 <h3>@widget.Name</h3>
-                <p>@widget.Type: @widget.Subtype</p>
+                @if (widget.Type == WidgetType.One)
+                {
+                    <p>Type 1, <em>@widget.Subtype</em></p>
+                } else if (widget.Type == WidgetType.Two)
+                {
+                    <p>Type 2, <em>@widget.Subtype</em></p>
+                } else
+                {
+                    <p>Type @widget.Type, <em>@widget.Subtype</em></p>
+                }
                 <p>@widget.Date, @widget.Time</p>
             </div>
         }

@@ -1,0 +1,88 @@
+﻿@model WidgetForm.Models.Widget
+
+@{
+	ViewData["Title"] = "New Widget";
+}
+
+@* site.js *@
+@section Scripts {
+	@* <script src="~/js/site.js"></script> *@
+}
+
+<div class="widgetContainer">
+	<h2 class="boldFont">New Widget</h2>
+
+	<form asp-action="Add" method="post">
+		<label for="widgetName">Name</label>
+		<input name="name" id="widgetName" type="text" inputmode="text" required maxLength="500"/>
+
+		<div id="dateTimeContainer">
+			<div>
+				<label for="widgetDate">Date Created</label>
+				<input name="date" id="widgetDate" type="date" required />
+			</div>
+
+			<div>
+				<label for="widgetTime">Time Created</label>
+				<input name="time" id="widgetTime" type="time" required />
+			</div>
+		</div>
+
+		<label for="widgetType">Type</label>
+		<select name="type" id="widgetType" required>
+			<option value="">-- Select --</option>
+			<option value="One">1</option>
+			<option value="Two">2</option>
+			<option value="A">A</option>
+			<option value="B">B</option>
+		</select>
+
+		@* Type 1 Subtypes *@
+		<div class="vertical" style="display: none;">
+			<label for="widgetSubtypeOne">Type 1 Subtypes</label><br />
+			<select name="subtype" id="widgetSubtypeOne" disabled>
+				<option value="">-- Select --</option>
+				<option value="First">First</option>
+				<option value="One">One</option>
+				<option value="Primary">Primary</option>
+				<option value="Uno">Uno</option>
+			</select>
+		</div>
+
+		@* Type 2 Subtypes *@
+		<div class="vertical" style="display: none;">
+			<label for="widgetSubtypeTwo">Type 2 Subtypes</label><br />
+			<select name="subtype" id="widgetSubtypeTwo" disabled>
+				<option value="">-- Select --</option>
+				<option value="Second">Second</option>
+				<option value="Two">Two</option>
+				<option value="Secondary">Secondary</option>
+				<option value="Dos">Dos</option>
+			</select>
+		</div>
+
+		@* Type A Subtypes *@
+		<div class="vertical" style="display: none;">
+			<label for="widgetSubtypeA">Type A Subtypes</label><br />
+			<select name="subtype" id="widgetSubtypeA" disabled>
+				<option value="">-- Select --</option>
+				<option value="Apple">Apple</option>
+				<option value="Aardvark">Aardvark</option>
+				<option value="Astronaut">Astronaut</option>
+			</select>
+		</div>
+
+		@* Type B Subtypes *@
+		<div class="vertical" style="display: none;">
+			<label for="widgetSubtypeB">Type B Subtypes</label><br />
+			<select name="subtype" id="widgetSubtypeB" disabled>
+				<option value="">-- Select --</option>
+				<option value="Bear">Bear</option>
+				<option value="Bobcat">Bobcat</option>
+				<option value="Beaver">Beaver</option>
+			</select>
+		</div>
+
+		<button>Submit</button>
+	</form>
+</div>

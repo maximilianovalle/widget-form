@@ -13,18 +13,22 @@ namespace WidgetForm.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index() {
-            // DELETE ME: temporary list of Widgets for development purposes
-            List<Widget> widgets = new List<Widget> {
-                new Widget { ID = 0, Name = "Widget 0", Date = "2004-04-05", Time = "12:04", Type = WidgetType.A, Subtype = WidgetSubtype.Apple },
-                new Widget { ID = 1, Name = "Widget 1", Date = "2012-11-11", Time = "02:22", Type = WidgetType.One, Subtype = WidgetSubtype.Uno },
-                new Widget { ID = 2, Name = "Widget 2", Date = "2021-01-28", Time = "7:12", Type = WidgetType.Two, Subtype = WidgetSubtype.Secondary },
-                new Widget { ID = 3, Name = "Widget 3", Date = "2004-04-05", Time = "12:04", Type = WidgetType.A, Subtype = WidgetSubtype.Apple },
-                new Widget { ID = 4, Name = "Widget 4", Date = "2012-11-11", Time = "02:22", Type = WidgetType.One, Subtype = WidgetSubtype.Uno },
-                new Widget { ID = 5, Name = "Widget 5", Date = "2021-01-28", Time = "7:12", Type = WidgetType.Two, Subtype = WidgetSubtype.Secondary },
-            };
+        // DELETE ME: temporary list of Widgets for development purposes
+        static private List<Widget> widgets = new List<Widget> { };
 
+        public IActionResult Index() {
             return View(widgets);
+        }
+
+        public IActionResult Add() {
+            return View();  // empty Widget submission form
+        }
+
+        [HttpPost]
+        public IActionResult Add(Widget newWidget) {
+            newWidget.ID = widgets.Count;   // TODO: remove when DB is created
+            widgets.Add(newWidget);
+            return RedirectToAction("Index");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
