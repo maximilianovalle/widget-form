@@ -7,16 +7,16 @@ namespace WidgetForm.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly WidgetContext _context;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, WidgetContext context)
         {
             _logger = logger;
+            _context = context;
         }
 
-        // DELETE ME: temporary list of Widgets for development purposes
-        static private List<Widget> widgets = new List<Widget> { };
-
         public IActionResult Index() {
+            var widgets = _context.Widgets.ToList();
             return View(widgets);
         }
 
@@ -24,18 +24,26 @@ namespace WidgetForm.Controllers
             return View();  // empty Widget submission form
         }
 
-        //[HttpPost]
-        //public IActionResult Add(Widget newWidget) {
-        //    newWidget.ID = widgets.Count;   // TODO: remove when DB is created
-        //    widgets.Add(newWidget);
-        //    return RedirectToAction("Index");
-        //}
-
         [HttpPost]
+        public IActionResult Add(Widget newWidget) {
+            _context.Widgets.Add(newWidget);
+            _context.SaveChanges();
+
+            TempData["Name"] = newWidget.Name;
+            TempData["Type"] = newWidget.Type;
+            TempData["Subtype"] = newWidget.Subtype;
+            TempData["Date"] = newWidget.Date;
+            TempData["Time"] = newWidget.Time;
+
+            return RedirectToAction("Confirm");
+        }
+
         public IActionResult Confirm(Widget widget) {
-            widget.ID = widgets.Count;   // TODO: remove when DB is created
-            widgets.Add(widget);
-            return View(widget);
+            if (TempData["Name"] == null || TempData["Type"] == null || TempData["Subtype"] == null || TempData["Date"] == null || TempData["Time"] == null) {
+                return RedirectToAction("Index");
+            }
+
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

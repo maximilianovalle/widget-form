@@ -11,20 +11,20 @@
 	<h2 class="boldFont">Your new widget was successfully submitted</h2>
 
 	<div id="submissionInfo">
-		<p><strong>Name:</strong> @Model.Name</p>
-		@if (@Model.Type == WidgetType.One)
+		<p><strong>Name:</strong> @TempData["Name"]</p>
+		@if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"].ToString()) == WidgetType.One)
         {
             <p><strong>Type:</strong> 1</p>
-        } else if (@Model.Type == WidgetType.Two)
+        } else if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"].ToString()) == WidgetType.Two)
         {
             <p><strong>Type:</strong> 2</p>
         } else
         {
-           <p><strong>Type:</strong> @Model.Type</p>
+           <p><strong>Type:</strong> @TempData["Type"]</p>
         }
-		<p><strong>Subtype:</strong> @Model.Subtype</p>
-		<p><strong>Date Created:</strong> @Model.Date</p>
-		<p><strong>Time Created:</strong> @Model.Time</p>
+		<p><strong>Subtype:</strong> @TempData["Subtype"]</p>
+		<p><strong>Date Created:</strong> @TempData["Date"]</p>
+		<p><strong>Time Created:</strong> @TempData["Time"]</p>
 	</div>
 
 	<div id="buttons">

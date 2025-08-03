@@ -101,9 +101,13 @@ header > div:first-child {
 
     border-radius: 4px;
     border: 1px solid var(--secondary-color);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-#widgetItem > h3, #widgetItem > p {
+#widgetItem > div > h3, #widgetItem > div > p {
     margin: 4px 0px;
 }
 

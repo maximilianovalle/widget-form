@@ -15,18 +15,22 @@
     {
         @foreach (var widget in Model) {
             <div id="widgetItem">
-                <h3>@widget.Name</h3>
-                @if (widget.Type == WidgetType.One)
-                {
-                    <p>Type 1, <em>@widget.Subtype</em></p>
-                } else if (widget.Type == WidgetType.Two)
-                {
-                    <p>Type 2, <em>@widget.Subtype</em></p>
-                } else
-                {
-                    <p>Type @widget.Type, <em>@widget.Subtype</em></p>
-                }
-                <p>@widget.Date, @widget.Time</p>
+                <div>
+                    <h3>@widget.Name</h3>
+                    @if (widget.Type == WidgetType.One)
+                    {
+                        <p>Type 1, <em>@widget.Subtype</em></p>
+                    } else if (widget.Type == WidgetType.Two)
+                    {
+                        <p>Type 2, <em>@widget.Subtype</em></p>
+                    } else
+                    {
+                        <p>Type @widget.Type, <em>@widget.Subtype</em></p>
+                    }
+                    <p>@widget.Date, @widget.Time</p>
+                </div>
+
+                <i class="fa-solid fa-trash-can"></i>   @* TODO: implement DELETE *@
             </div>
         }
     } else

@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using WidgetForm.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<WidgetContext>(options =>
+    options.UseSqlite("Data Source=widgets.db"));
 
 var app = builder.Build();
 

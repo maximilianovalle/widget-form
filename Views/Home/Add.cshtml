@@ -6,13 +6,13 @@
 
 @* site.js *@
 @section Scripts {
-	@* <script src="~/js/site.js"></script> *@
+	<script src="~/js/site.js"></script>
 }
 
 <div class="widgetContainer">
 	<h2 class="boldFont">New Widget</h2>
 
-	<form asp-action="Confirm" method="post">
+	<form asp-action="Add" method="post">
 		<label for="widgetName">Name</label>
 		<input name="name" id="widgetName" type="text" inputmode="text" required maxLength="500"/>
 
