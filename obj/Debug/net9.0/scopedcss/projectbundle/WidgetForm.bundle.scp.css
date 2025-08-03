@@ -1,2 +1,53 @@
 /* _content/WidgetForm/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* only affects elements inside _Layout.cshtml specifically (header + footer) */
 
+*[b-dgw0co00ku] {
+    --main-color: #fff;
+    --accent-color: #f7f9fd;
+    --secondary-color: #172033;
+    --secondary-accent: #131931;
+
+    --height: 8vh;
+    --body-height: calc(100vh - var(--height) - var(--height));
+
+    font-family: Arial, sans-serif;
+}
+
+header[b-dgw0co00ku], footer[b-dgw0co00ku] {
+    box-sizing: border-box;
+    height: var(--height);
+    width: 100%;
+    padding: 0px 8vw;
+
+    background: var(--main-color);
+    background: linear-gradient(90deg, var(--main-color) 0%, var(--accent-color) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer[b-dgw0co00ku] {
+    justify-content: center;
+}
+
+#mainContent[b-dgw0co00ku] {
+    box-sizing: border-box;
+    padding: 2vh 10vw;
+    min-height: var(--body-height);
+    width: 100%;
+
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--secondary-accent) 100%);
+}
+
+.boldFont[b-dgw0co00ku] {
+    font-family: var(--bold-font);
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+i[b-dgw0co00ku] {
+    font-size: 18px;
+    color: var(--secondary-color);
+}

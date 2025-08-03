@@ -1,1 +1,52 @@
-﻿
+﻿/* only affects elements inside _Layout.cshtml specifically (header + footer) */
+
+* {
+    --main-color: #fff;
+    --accent-color: #f7f9fd;
+    --secondary-color: #172033;
+    --secondary-accent: #131931;
+
+    --height: 8vh;
+    --body-height: calc(100vh - var(--height) - var(--height));
+
+    font-family: Arial, sans-serif;
+}
+
+header, footer {
+    box-sizing: border-box;
+    height: var(--height);
+    width: 100%;
+    padding: 0px 8vw;
+
+    background: var(--main-color);
+    background: linear-gradient(90deg, var(--main-color) 0%, var(--accent-color) 100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    justify-content: center;
+}
+
+#mainContent {
+    box-sizing: border-box;
+    padding: 2vh 10vw;
+    min-height: var(--body-height);
+    width: 100%;
+
+    background: var(--secondary-color);
+    background: linear-gradient(90deg, var(--secondary-color) 0%, var(--secondary-accent) 100%);
+}
+
+.boldFont {
+    font-family: var(--bold-font);
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+i {
+    font-size: 18px;
+    color: var(--secondary-color);
+}

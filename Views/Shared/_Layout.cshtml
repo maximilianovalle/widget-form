@@ -6,33 +6,33 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />    @* mobile responsive *@
     <title>@ViewData["Title"] - Empire Systems</title>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />   @* wwwroot > css > site.css *@
     <link rel="stylesheet" href="~/WidgetForm.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /> @* font awesome icons *@
 
 </head>
 
 <body>
 
     <header>
-        <nav>
-            <div>
+        <div>
+            <img id="companyLogo" src="./images/logo_arm_white_bg.png" />
+            <a id="companyName" asp-area="" asp-controller="Home" asp-action="Index">Empire Systems</a>
+        </div>
 
-                <a asp-area="" asp-controller="Home" asp-action="Index">Empire Systems</a>
-
-            </div>
-        </nav>
+        <div>
+            <a><i class="fa-solid fa-circle-plus"></i></a>
+        </div>
     </header>
 
     <div>
-        <main role="main">
+        <main role="main" id="mainContent">
             @RenderBody()
         </main>
     </div>
 
     <footer>
-        <div>
-            &copy; 2025 - Empire Systems
-        </div>
+        <div> &copy; 2025 <span class="boldFont">Empire Systems</span>. All rights reserved.  </div>
     </footer>
 
     <script src="~/js/site.js" asp-append-version="true"></script>

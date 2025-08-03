@@ -1,31 +1,57 @@
+@font-face {
+    font-family: "Overcame-Demo";
+    src: url('../fonts/overcame-demo.regular.ttf');
+}
+
+* {
+    --bold-font: Overcame-Demo, sans-serif;
+
+    --main-color: #fff;
+    --accent-color: #f7f9fd;
+    --secondary-color: #172033;
+    --secondary-accent: #131931;
+    --height: 8vh;
+    --body-height: calc(100vh - var(--height) - var(--height));
+    font-family: Arial, sans-serif;
+}
+
 html {
-  font-size: 14px;
-}
+    min-height: 100vh;
+    padding: 0px;
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
+    font-size: 14px;
+    position: relative;
 }
 
 body {
-  margin-bottom: 60px;
+  margin: 0px;
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+a {
+    text-decoration: none;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+a:hover {
+    cursor: pointer;
+}
+
+/* header */
+
+header > div:first-child {
+    min-width: 16vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#companyLogo {
+    max-height: 6vh;
+}
+
+#companyName {
+    font-size: 24px;
+    font-family: var(--bold-font);
+    color: var(--secondary-color);
+    padding: 0px;
 }
