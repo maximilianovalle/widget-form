@@ -1,8 +1,29 @@
-﻿@{
+﻿@model List<WidgetForm.Models.Widget>
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+@* TODO: Widgets catalogue display page *@
+
+<div id="widgetContainer">
+    <div id="widgetContainerHeader">
+        <h2 class="boldFont">Widgets</h2>
+        <a><i class="fa-solid fa-plus"></i>Add Widget</a>
+    </div>
+
+    @if (Model != null && Model.Count > 0)
+    {
+        @foreach (var widget in Model) {
+            <div id="widgetItem">
+                <h3>@widget.Name</h3>
+                <p>@widget.Type: @widget.Subtype</p>
+                <p>@widget.Date, @widget.Time</p>
+            </div>
+        }
+    } else
+    {
+        <h3 id="fallbackMessage">No widgets currently added.</h3>
+    }
+
 </div>

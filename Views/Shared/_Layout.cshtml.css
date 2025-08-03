@@ -45,8 +45,3 @@ footer {
     font-weight: lighter;
     letter-spacing: 1px;
 }
-
-i {
-    font-size: 18px;
-    color: var(--secondary-color);
-}

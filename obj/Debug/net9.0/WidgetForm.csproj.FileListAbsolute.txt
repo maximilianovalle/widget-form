@@ -92,6 +92,6 @@ C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\refint\WidgetForm.dll
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\WidgetForm.pdb
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\WidgetForm.genruntimeconfig.cache
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\ref\WidgetForm.dll
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-on5ulazcaw.gz
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\aqpuu3ndjq-6vhx6jgoeo.gz
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\q9h47ctcfn-6vhx6jgoeo.gz
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-n0yej61hmx.gz
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\aqpuu3ndjq-lq6vq2vo31.gz
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\q9h47ctcfn-lq6vq2vo31.gz
