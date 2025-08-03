@@ -184,3 +184,21 @@ button:hover {
     cursor: pointer;
     background-color: var(--secondary-accent);
 }
+
+/* Confirm.cshtml */
+
+#submissionInfo {
+    max-width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#buttons {
+    max-width: 65%;
+    margin: 0px auto;
+    margin-top: 4vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

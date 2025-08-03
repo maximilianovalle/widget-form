@@ -22,7 +22,6 @@ C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\rjsmcshtml.dswa.cache.j
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\scopedcss\bundle\WidgetForm.styles.css
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\scopedcss\projectbundle\WidgetForm.bundle.scp.css
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\htyymzuiah-61n19gt1b8.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\0zpb2a66wl-bqjiyaj88i.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\7c7p53sb63-c2jlpeoesf.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\ep5qm19myy-erw9l3u2r3.gz
@@ -93,5 +92,6 @@ C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\WidgetForm.genruntimeco
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\ref\WidgetForm.dll
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\aqpuu3ndjq-ovmoidubvn.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\q9h47ctcfn-ovmoidubvn.gz
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-s4mex103pz.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1z3jl9tmo7-6e3v6nitcu.gz
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\htyymzuiah-xcnvjsf7ct.gz
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-i1g9qet8cl.gz

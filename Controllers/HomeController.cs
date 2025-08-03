@@ -24,11 +24,18 @@ namespace WidgetForm.Controllers
             return View();  // empty Widget submission form
         }
 
+        //[HttpPost]
+        //public IActionResult Add(Widget newWidget) {
+        //    newWidget.ID = widgets.Count;   // TODO: remove when DB is created
+        //    widgets.Add(newWidget);
+        //    return RedirectToAction("Index");
+        //}
+
         [HttpPost]
-        public IActionResult Add(Widget newWidget) {
-            newWidget.ID = widgets.Count;   // TODO: remove when DB is created
-            widgets.Add(newWidget);
-            return RedirectToAction("Index");
+        public IActionResult Confirm(Widget widget) {
+            widget.ID = widgets.Count;   // TODO: remove when DB is created
+            widgets.Add(widget);
+            return View(widget);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

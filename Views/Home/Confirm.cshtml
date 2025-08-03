@@ -1,0 +1,39 @@
+﻿@model WidgetForm.Models.Widget
+
+@{
+	ViewData["Title"] = "Confirm";
+}
+
+@{
+}
+
+<div class="widgetContainer">
+	<h2 class="boldFont">Your new widget was successfully submitted</h2>
+
+	<div id="submissionInfo">
+		<p><strong>Name:</strong> @Model.Name</p>
+		@if (@Model.Type == WidgetType.One)
+        {
+            <p><strong>Type:</strong> 1</p>
+        } else if (@Model.Type == WidgetType.Two)
+        {
+            <p><strong>Type:</strong> 2</p>
+        } else
+        {
+           <p><strong>Type:</strong> @Model.Type</p>
+        }
+		<p><strong>Subtype:</strong> @Model.Subtype</p>
+		<p><strong>Date Created:</strong> @Model.Date</p>
+		<p><strong>Time Created:</strong> @Model.Time</p>
+	</div>
+
+	<div id="buttons">
+		<div>
+			<a asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i>Back to Home</a>
+		</div>
+
+		<div>
+			 <a asp-controller="Home" asp-action="Add"><i class="fa-solid fa-plus"></i>Add New Widget</a>
+		</div>
+	</div>
+</div>
