@@ -52,6 +52,6 @@ header > div:first-child {
 #companyName {
     font-size: 24px;
     font-family: var(--bold-font);
+    letter-spacing: 1px;
     color: var(--secondary-color);
-    padding: 0px;
 }

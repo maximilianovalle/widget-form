@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c683a103c3cf22c7b1fe5c29591c8c4c34fd0654")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e0292b4ace31b253389f04fea20f21366531f39")]
 [assembly: System.Reflection.AssemblyProductAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
