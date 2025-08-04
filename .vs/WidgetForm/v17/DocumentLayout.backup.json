@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\models\\widgetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:models\\widgetcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\models\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:models\\widget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -50,8 +50,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAKAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-08-04T00:15:05.821Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 9,
@@ -78,19 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WidgetContext.cs",
-              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Models\\WidgetContext.cs",
-              "RelativeDocumentMoniker": "Models\\WidgetContext.cs",
-              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Models\\WidgetContext.cs",
-              "RelativeToolTip": "Models\\WidgetContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T23:23:24.254Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -108,69 +109,69 @@
               "RelativeDocumentMoniker": "Models\\Widget.cs",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Models\\Widget.cs",
               "RelativeToolTip": "Models\\Widget.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAAB4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T03:32:28.631Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAAACkAAACeAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwCMAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-03T01:55:46.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAYwBUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBYAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-03T03:32:03.232Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Add.cshtml",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Add.cshtml",
               "RelativeToolTip": "Views\\Home\\Add.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwAgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAIAwwBAAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-03T14:38:47.585Z"
+              "WhenOpened": "2025-08-03T14:38:47.585Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Confirm.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Confirm.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Confirm.cshtml",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Confirm.cshtml",
               "RelativeToolTip": "Views\\Home\\Confirm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAwwBkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-03T22:47:06.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T22:47:06.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAG0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAG0AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-08-03T03:48:56.688Z"
             }

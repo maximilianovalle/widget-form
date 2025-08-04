@@ -103,13 +103,14 @@ header > div:first-child {
     border: 1px solid var(--secondary-color);
 
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-#widgetItem > div > h3, #widgetItem > div > p {
-    margin: 4px 0px;
+#widgetItem > h3, #widgetItem > p {
+    margin: 2px 0px;
 }
+
+/*.widgetDelete*/
 
 #fallbackMessage {
     padding-top: 4vh;

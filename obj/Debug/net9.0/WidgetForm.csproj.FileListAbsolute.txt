@@ -216,5 +216,5 @@ C:\Users\twofa\Desktop\repos\WidgetForm\bin\Debug\net9.0\runtimes\win-arm\native
 C:\Users\twofa\Desktop\repos\WidgetForm\bin\Debug\net9.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\twofa\Desktop\repos\WidgetForm\bin\Debug\net9.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\twofa\Desktop\repos\WidgetForm\bin\Debug\net9.0\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-be4pd3l88g.gz
 C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\WidgetForm.csproj.Up2Date
+C:\Users\twofa\Desktop\repos\WidgetForm\obj\Debug\net9.0\compressed\1u0ns8pesi-3wwrzqrg8e.gz

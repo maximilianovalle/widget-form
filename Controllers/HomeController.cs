@@ -30,9 +30,10 @@ namespace WidgetForm.Controllers
             _context.SaveChanges();
 
             TempData["Name"] = newWidget.Name;
-            TempData["Type"] = newWidget.Type;
-            TempData["Subtype"] = newWidget.Subtype;
-            TempData["Date"] = newWidget.Date;
+            TempData["Type"] = newWidget.Type.ToString();
+            TempData["Subtype"] = newWidget.Subtype.ToString();
+            DateTime dateTimeObj = DateTime.Parse(newWidget.Date);
+            TempData["Date"] = dateTimeObj.ToShortDateString();
             TempData["Time"] = newWidget.Time;
 
             return RedirectToAction("Confirm");
