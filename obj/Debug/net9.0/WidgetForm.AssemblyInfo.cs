@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d90d3a06bda7d4b7b05d215c1919b041e0934e59")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70007c41e5afba2d48e2ec260cd51004832ddf68")]
 [assembly: System.Reflection.AssemblyProductAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WidgetForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -4,18 +4,15 @@
 	ViewData["Title"] = "Confirm";
 }
 
-@{
-}
-
 <div class="widgetContainer">
 	<h2 class="boldFont">Your new widget was successfully submitted</h2>
 
 	<div id="submissionInfo">
 		<p><strong>Name:</strong> @TempData["Name"]</p>
-		@if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"].ToString()) == WidgetType.One)
+		@if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"]!.ToString()!) == WidgetType.One)
         {
             <p><strong>Type:</strong> 1</p>
-        } else if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"].ToString()) == WidgetType.Two)
+        } else if ((WidgetType)Enum.Parse(typeof(WidgetType), TempData["Type"]!.ToString()!) == WidgetType.Two)
         {
             <p><strong>Type:</strong> 2</p>
         } else

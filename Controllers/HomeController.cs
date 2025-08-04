@@ -32,8 +32,10 @@ namespace WidgetForm.Controllers
             TempData["Name"] = newWidget.Name;
             TempData["Type"] = newWidget.Type.ToString();
             TempData["Subtype"] = newWidget.Subtype.ToString();
-            DateTime dateTimeObj = DateTime.Parse(newWidget.Date);
-            TempData["Date"] = dateTimeObj.ToShortDateString();
+            if (newWidget.Date != null) {
+                DateTime dateTimeObj = DateTime.Parse(newWidget.Date);
+                TempData["Date"] = dateTimeObj.ToShortDateString();
+            }
             TempData["Time"] = newWidget.Time;
 
             return RedirectToAction("Confirm");
