@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|c:\\users\\twofa\\desktop\\repos\\widgetform\\views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{6A7BDBD8-C668-4781-8322-172E9DF77BF2}|WidgetForm.csproj|solutionrelative:views\\home\\confirm.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -50,11 +54,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-08-04T00:57:00.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": ".gitignore",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\.gitignore",
               "RelativeDocumentMoniker": ".gitignore",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "_Layout.cshtml.css",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Shared\\_Layout.cshtml.css",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -90,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -102,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Widget.cs",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Models\\Widget.cs",
               "RelativeDocumentMoniker": "Models\\Widget.cs",
@@ -114,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -122,12 +139,11 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAACwAAACeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-03T01:55:46.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T01:55:46.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -139,7 +155,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Add.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Add.cshtml",
@@ -147,25 +163,24 @@
               "RelativeToolTip": "Views\\Home\\Add.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAIAwwEAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-03T14:38:47.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-03T14:38:47.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Confirm.cshtml",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Confirm.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Confirm.cshtml",
               "ToolTip": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\Views\\Home\\Confirm.cshtml",
               "RelativeToolTip": "Views\\Home\\Confirm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-03T22:47:06.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\twofa\\Desktop\\repos\\WidgetForm\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
